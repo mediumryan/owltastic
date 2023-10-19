@@ -2,9 +2,10 @@
 
 :root {
     /* color */
-    --primary-100: #fbf0e1;
+    --primary-100: #faeedd;
     --primary-200: #f0d09a;
     --black-100: #29241f;
+    --black-200: #827b75;
     /* font-size */
     --font-size-huge: 64px;
     --font-size-large: 48px;
@@ -14,6 +15,7 @@
     --font-size-micro: 16px;
     /* font-family */
     --font-family-round: 'PyeongChangPeace-Bold';
+    --font-family-normal: 'GmarketSansMedium';
     /* margin */
     --margin-huge: 64px;
     --margin-very-large: 48px;
@@ -43,13 +45,21 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
+        format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: var(--font-family-round);
     font-size: 20px;
     letter-spacing: 0.1em;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 
 /* Media query --- mobile */
