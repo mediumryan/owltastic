@@ -2,15 +2,9 @@
 
 :root {
     /* color */
-    --primary-100: #8b5fbf;
-    --primary-200: #61398f;
-    --accent-100: #d6c6e1;
-    --accent-200: #9a73b5;
-    --text-100: #4a4a4a;
-    --text-200: #878787;
-    --bg-100: #f5f3f7;
-    --bg-200: #e9e4ed;
-    --bg-300: #ffffff;
+    --primary-100: #fbf0e1;
+    --primary-200: #f0d09a;
+    --black-100: #29241f;
 
     /* font-size */
     --font-size-huge: 64px;
@@ -39,19 +33,17 @@
     --padding-double-small: 8px 12px;
 }
 
-/* fonts */
-
-@font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff')
-        format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
-    font-family: 'GmarketSansMedium';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Quasimoda', 'ivyora-text', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    line-height: 1.5em;
 }
+
 /* Media query --- mobile */
 @media (min-width: 844px) and (min-height: 390px) {
     :root {
