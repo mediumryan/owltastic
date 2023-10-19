@@ -5,7 +5,6 @@
     --primary-100: #fbf0e1;
     --primary-200: #f0d09a;
     --black-100: #29241f;
-
     /* font-size */
     --font-size-huge: 64px;
     --font-size-large: 48px;
@@ -13,6 +12,8 @@
     --font-size-medium: 24px;
     --font-size-small: 20px;
     --font-size-micro: 16px;
+    /* font-family */
+    --font-family-round: 'PyeongChangPeace-Bold';
     /* margin */
     --margin-huge: 64px;
     --margin-very-large: 48px;
@@ -33,14 +34,21 @@
     --padding-double-small: 8px 12px;
 }
 
+/* fonts */
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2')
+        format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Quasimoda', 'ivyora-text', sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: var(--font-family-round);
     font-size: 20px;
-    letter-spacing: -0.01em;
+    letter-spacing: 0.1em;
     line-height: 1.5em;
 }
 

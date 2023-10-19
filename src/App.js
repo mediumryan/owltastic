@@ -1,24 +1,25 @@
 import { styled } from 'styled-components';
 import './CSS/index.css';
 import Header from './Components/Header/Header';
-import Intro from './Components/Intro/Intro';
-import Feature from './Components/Feature/Feature';
-import Greeting from './Components/Greeting/Greeting';
-import Recent from './Components/Recent/Recent';
 import Contact from './Contact/Contact';
 import Stay from './Stay/Stay';
 import Footer from './Footer/Footer';
+import Home from './Components/Home/Home';
+import Work from './Components/Work/Work';
+import Words from './Components/Words/Words';
+import About from './Components/About/About';
 
 const OuterWrapper = styled.div`
     background-color: var(--primary-200);
+    padding: var(--padding-very-large);
 `;
 
 const InnerWrapper = styled.div`
     height: 100vh;
-    padding: var(--padding-medium-large);
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid var(--black-100);
 `;
 
 function App() {
@@ -26,10 +27,10 @@ function App() {
         <OuterWrapper>
             <InnerWrapper>
                 <Header />
-                <Intro />
-                <Feature />
-                <Greeting />
-                <Recent />
+                <Home />
+                <Work />
+                <Words />
+                <About />
                 <Contact />
                 <Stay />
                 <Footer />
