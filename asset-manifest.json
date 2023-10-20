@@ -1,18 +1,24 @@
 {
   "files": {
     "main.css": "/owltastic/static/css/main.0c757366.css",
-    "main.js": "/owltastic/static/js/main.b00dcb34.js",
+    "main.js": "/owltastic/static/js/main.901096d9.js",
+    "static/media/home-cropped.jpg": "/owltastic/static/media/home-cropped.5404ac5a5e8db29353b3.jpg",
+    "static/media/console-preview.webp": "/owltastic/static/media/console-preview.ee809608ee732b997f66.webp",
+    "static/media/swell-home.webp": "/owltastic/static/media/swell-home.779bedeb5a62e16a805e.webp",
+    "static/media/connected-services-plans.webp": "/owltastic/static/media/connected-services-plans.50807faaf84235e0e521.webp",
+    "static/media/vilcap-home-preview-desktop-high-res.webp": "/owltastic/static/media/vilcap-home-preview-desktop-high-res.01884198ebe2e94d23d2.webp",
     "static/media/bg-orbit.webp": "/owltastic/static/media/bg-orbit.775715d9bf544c44145c.webp",
+    "static/media/coaches-high-res.webp": "/owltastic/static/media/coaches-high-res.b8b5a32ba637c79a37c6.webp",
     "static/media/bg-star-lady.webp": "/owltastic/static/media/bg-star-lady.5dec1f23db1988035566.webp",
     "static/media/bg-star-owl.webp": "/owltastic/static/media/bg-star-owl.c7cefd5121f6d611b523.webp",
     "static/media/bg-star-top.webp": "/owltastic/static/media/bg-star-top.651eb4171f832c4076f9.webp",
     "static/media/bg-star-bottom.webp": "/owltastic/static/media/bg-star-bottom.e34b6d8d324c3de18613.webp",
     "index.html": "/owltastic/index.html",
     "main.0c757366.css.map": "/owltastic/static/css/main.0c757366.css.map",
-    "main.b00dcb34.js.map": "/owltastic/static/js/main.b00dcb34.js.map"
+    "main.901096d9.js.map": "/owltastic/static/js/main.901096d9.js.map"
   },
   "entrypoints": [
     "static/css/main.0c757366.css",
-    "static/js/main.b00dcb34.js"
+    "static/js/main.901096d9.js"
   ]
 }
