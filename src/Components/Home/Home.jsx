@@ -7,7 +7,7 @@ import StarLady from './../../Images/bg-star-lady.webp';
 import StarOwl from './../../Images/bg-star-owl.webp';
 import StarTop from './../../Images/bg-star-top.webp';
 
-const HomeWrapper = styled.div`
+const HomeWrapper = styled.section`
     width: 100%;
     height: 100%;
     background-color: var(--primary-100);
@@ -31,9 +31,8 @@ const HomeIntro = styled.p`
     font-size: 14px;
 `;
 
-const GoPortfolio = styled.button`
+const GoPortfolio = styled.a`
     padding: 0;
-    margin-top: 36px;
     color: var(--black-200);
     font-style: italic;
     font-family: var(--font-family-round);
@@ -142,7 +141,14 @@ export default function Home() {
                 Hello! I’m Meagan Fisher Couldwell, and I’ve been designing
                 usable and delightful digital experiences—as well as writing and
                 speaking about design—for almost 20 years. <br />
-                <GoPortfolio>PERUSE MY PORTFOLIO →</GoPortfolio>
+                <br />
+                <br />
+                <GoPortfolio
+                    href="https://owltastic.com/work.html"
+                    target="blank"
+                >
+                    PERUSE MY PORTFOLIO →
+                </GoPortfolio>
             </HomeIntro>
             <StarTopImg />
             <StarBottomImg />
