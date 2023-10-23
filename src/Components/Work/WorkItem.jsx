@@ -7,6 +7,8 @@ const WorkItemWrapper = styled.li`
     margin: 24px;
     border: 1px solid var(--primary-100);
     padding: 24px;
+    z-index: 2;
+    cursor: pointer;
 `;
 
 const WorkAnchor = styled.a`
