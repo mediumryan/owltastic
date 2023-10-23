@@ -29,8 +29,7 @@ const WordsInset = styled.p`
     padding: 0 25%;
     margin: 32px 0 32px 72px;
     font-family: var(--font-family-normal);
-    font-size: 16px;
-    line-height: 2;
+    font-size: 14px;
 `;
 
 const WordsMore = styled.a`

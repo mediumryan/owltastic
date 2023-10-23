@@ -42,3 +42,51 @@ export const workState = atom({
         },
     ],
 });
+
+export const aboutState = atom({
+    key: 'about_state',
+    default: [
+        {
+            id: 0,
+            title: 'Dribbble’s Overtime Podcast',
+            url: 'https://dribbble.com/overtime/2019/04/10/owltastic-s-meagan-fisher-on-adapting-to-the-modern-landscape-of-web-design',
+            content:
+                'Meagan Fisher on Adapting to the Modern Landscape of Web Design',
+        },
+        {
+            id: 1,
+            title: 'The Adobe Create Blog',
+            url: 'https://creativecloud.adobe.com/cc/discover/article/balancing-form-and-function-a-conversation-with-digital-designer-meagan-fisher?locale=en',
+            content:
+                'Balancing Form and Function: A Conversation with Meagan Fisher',
+        },
+        {
+            id: 2,
+            title: 'The Yo! Podcast',
+            url: 'https://yo.fm/couldwells',
+            content:
+                'The Couldwells: An Interview with Rob Hope of One Page Love',
+        },
+        {
+            id: 3,
+            title: 'Case Study',
+            url: 'https://medium.com/@owltastic/helping-behavioral-scientists-create-behavior-change-for-good-dc120cfa9520',
+            content:
+                'Helping Behavioral Scientists Create Behavior Change for Good',
+        },
+        {
+            id: 4,
+            title: 'Case Study',
+            url: 'https://medium.com/@owltastic/designing-a-marketing-concept-for-a-financial-software-company-476bfcb288d5',
+            content:
+                'Designing a Marketing Concept for a Financial Software Company',
+        },
+        {
+            id: 5,
+            title: 'Creative Bloq',
+            url: 'https://www.creativebloq.com/business/meagan-fisher-business-design-91412936',
+            content:
+                'Featured Interview: Meagan Fisher on the Business of Design',
+        },
+    ],
+});
