@@ -19,7 +19,7 @@ const HomeWrapper = styled.section`
     overflow: hidden;
 `;
 
-const HomeTitle = styled.p`
+const HomeTitle = styled.h1`
     padding: 0 320px;
     font-size: 64px;
 `;
