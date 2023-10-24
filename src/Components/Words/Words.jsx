@@ -17,7 +17,7 @@ const WordsInner = styled.div`
 const WordsContent = styled.div`
     display: flex;
     flex-direction: column;
-    padding: 80px 1rem;
+    padding: 5% 20%;
 `;
 
 const WordsTitle = styled.h1`
@@ -26,16 +26,16 @@ const WordsTitle = styled.h1`
 `;
 
 const WordsInset = styled.p`
-    padding: 0 25%;
-    margin: 32px 0 32px 72px;
+    padding: 0 10%;
+    margin: 32px 0 32px 32px;
     font-family: var(--font-family-normal);
     font-size: 14px;
 `;
 
 const WordsMore = styled.a`
-    width: 10%;
+    width: 20%;
     font-size: 10px;
-    margin-left: 30%;
+    margin-left: 15%;
     padding-bottom: 4px;
     border-bottom: 1px solid var(--black-100);
     cursor: pointer;

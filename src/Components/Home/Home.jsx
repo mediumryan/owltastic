@@ -14,13 +14,13 @@ const HomeWrapper = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 96px 0;
+    padding: 5%;
     position: relative;
     overflow: hidden;
 `;
 
 const HomeTitle = styled.h1`
-    padding: 0 320px;
+    padding: 0 20%;
     font-size: 64px;
 `;
 
