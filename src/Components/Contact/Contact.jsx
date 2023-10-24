@@ -1,5 +1,5 @@
 import { styled } from 'styled-components';
-import globe from './../Images/bg-globe.webp';
+import globe from './../../Images/bg-globe.webp';
 
 const ContactOuter = styled.section`
     background: url(${globe}) 93% center no-repeat;

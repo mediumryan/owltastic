@@ -1,13 +1,13 @@
 import { styled } from 'styled-components';
 import './CSS/index.css';
 import Header from './Components/Header/Header';
-import Contact from './Contact/Contact';
-import Stay from './Stay/Stay';
+import Stay from './Components/Stay/Stay';
 import Footer from './Footer/Footer';
 import Home from './Components/Home/Home';
 import Work from './Components/Work/Work';
 import Words from './Components/Words/Words';
 import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
 
 const OuterWrapper = styled.div`
     background-color: var(--primary-200);
