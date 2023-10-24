@@ -1,7 +1,7 @@
 import React from 'react';
 import { styled } from 'styled-components';
 
-const HeaderWrapper = styled.div`
+export const HeaderWrapper = styled.div`
     background-color: var(--black-100);
     color: var(--primary-100);
     width: 100%;
@@ -11,21 +11,29 @@ const HeaderWrapper = styled.div`
     justify-content: space-between;
 `;
 
-const HeaderTitle = styled.h1`
+export const HeaderTitle = styled.h1`
     font-style: italic;
     font-size: var(--font-size-medium-large);
 `;
 
-const HeaderMenu = styled.ul`
+export const HeaderMenu = styled.ul`
     display: flex;
 `;
 
-const HeaderMenuItem = styled.li`
+export const HeaderMenuItem = styled.li`
     font-size: var(--font-size-small);
     margin: 0 var(--margin-medium-large);
     padding-bottom: var(--padding-micro);
     cursor: pointer;
-    border-bottom: 1px solid var(--primary-100);
+    &:first-child {
+        border-bottom: 1px solid var(--primary-100);
+        &:hover {
+            border-color: transparent;
+        }
+    }
+    &:hover {
+        color: var(--primary-200);
+    }
 `;
 
 export default function Header() {
