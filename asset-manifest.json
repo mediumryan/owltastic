@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/owltastic/static/css/main.7a1db45a.css",
-    "main.js": "/owltastic/static/js/main.1f4584ef.js",
+    "main.js": "/owltastic/static/js/main.372f5a6d.js",
     "static/media/home-cropped.jpg": "/owltastic/static/media/home-cropped.5404ac5a5e8db29353b3.jpg",
+    "static/media/bg-star-chart-alt.webp": "/owltastic/static/media/bg-star-chart-alt.01ab4ea97cae577ae844.webp",
     "static/media/bg-meteor-shower.webp": "/owltastic/static/media/bg-meteor-shower.9517d69841fe073af225.webp",
     "static/media/console-preview.webp": "/owltastic/static/media/console-preview.ee809608ee732b997f66.webp",
     "static/media/swell-home.webp": "/owltastic/static/media/swell-home.779bedeb5a62e16a805e.webp",
     "static/media/connected-services-plans.webp": "/owltastic/static/media/connected-services-plans.50807faaf84235e0e521.webp",
+    "static/media/bg-globe.webp": "/owltastic/static/media/bg-globe.0564805adc4d0585eda3.webp",
     "static/media/vilcap-home-preview-desktop-high-res.webp": "/owltastic/static/media/vilcap-home-preview-desktop-high-res.01884198ebe2e94d23d2.webp",
     "static/media/bg-orbit.webp": "/owltastic/static/media/bg-orbit.775715d9bf544c44145c.webp",
     "static/media/bg-owl-moon-flipped.webp": "/owltastic/static/media/bg-owl-moon-flipped.4374341836c22da8ef63.webp",
@@ -17,10 +19,10 @@
     "static/media/bg-star-bottom.webp": "/owltastic/static/media/bg-star-bottom.e34b6d8d324c3de18613.webp",
     "index.html": "/owltastic/index.html",
     "main.7a1db45a.css.map": "/owltastic/static/css/main.7a1db45a.css.map",
-    "main.1f4584ef.js.map": "/owltastic/static/js/main.1f4584ef.js.map"
+    "main.372f5a6d.js.map": "/owltastic/static/js/main.372f5a6d.js.map"
   },
   "entrypoints": [
     "static/css/main.7a1db45a.css",
-    "static/js/main.1f4584ef.js"
+    "static/js/main.372f5a6d.js"
   ]
 }
