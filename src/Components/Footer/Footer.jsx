@@ -1,6 +1,7 @@
 import React from 'react';
 import { styled } from 'styled-components';
 import {
+    HeaderLink,
     HeaderMenu,
     HeaderMenuItem,
     HeaderTitle,
@@ -22,16 +23,33 @@ const FooterMenuItem = styled(HeaderMenuItem)`
     }
 `;
 
+const FooterLink = styled(HeaderLink)`
+    color: var(--black-100);
+    &:hover {
+        color: var(--primary-200);
+    }
+`;
+
 export default function Footer() {
     return (
         <FooterWrapper>
             <FooterTitle>owltastic</FooterTitle>
             <FooterMenu>
-                <FooterMenuItem>HOME</FooterMenuItem>
-                <FooterMenuItem>WORK</FooterMenuItem>
-                <FooterMenuItem>WORDS</FooterMenuItem>
-                <FooterMenuItem>ABOUT</FooterMenuItem>
-                <FooterMenuItem>CONTACT</FooterMenuItem>
+                <FooterMenuItem>
+                    <FooterLink>Home</FooterLink>
+                </FooterMenuItem>
+                <FooterMenuItem>
+                    <FooterLink>WORK</FooterLink>
+                </FooterMenuItem>
+                <FooterMenuItem>
+                    <FooterLink>WORDS</FooterLink>
+                </FooterMenuItem>
+                <FooterMenuItem>
+                    <FooterLink>ABOUT</FooterLink>
+                </FooterMenuItem>
+                <FooterMenuItem>
+                    <FooterLink>CONTACT</FooterLink>
+                </FooterMenuItem>
             </FooterMenu>
         </FooterWrapper>
     );

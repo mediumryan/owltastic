@@ -36,7 +36,12 @@ export const HeaderMenuItem = styled.li`
     }
 `;
 
-export const HeaderLink = styled(Link)``;
+export const HeaderLink = styled(Link)`
+    color: var(--primary-100);
+    &:hover {
+        color: var(--primary-200);
+    }
+`;
 
 export default function Header() {
     return (
