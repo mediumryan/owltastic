@@ -1,9 +1,8 @@
-import React from 'react';
 import { useRecoilValue } from 'recoil';
 import { styled } from 'styled-components';
-import { workState } from '../../atom';
+import { workState } from '../../../atom';
 import WorkItem from './WorkItem';
-import workBg from './../../Images/bg-star-chart-alt.webp';
+import workBg from './../../../Images/bg-star-chart-alt.webp';
 
 const WorkWrapper = styled.section`
     background-color: var(--black-100);

@@ -1,6 +1,5 @@
-import React from 'react';
 import { styled } from 'styled-components';
-import owl from './../../Images/bg-owl-moon-flipped.webp';
+import owl from './../../../Images/bg-owl-moon-flipped.webp';
 
 const WordsOuter = styled.section`
     background-color: var(--primary-100);

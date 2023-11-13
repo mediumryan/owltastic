@@ -1,20 +1,23 @@
 import { styled } from 'styled-components';
+import { Route, Routes } from 'react-router-dom';
 import './CSS/index.css';
+// pages
+import Home from './Pages/Home';
+// components
 import Header from './Components/Header/Header';
-import Stay from './Components/Stay/Stay';
-import Home from './Components/Home/Home';
-import Work from './Components/Work/Work';
-import Words from './Components/Words/Words';
-import About from './Components/About/About';
-import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import NotFound from './Pages/NotFound';
+import Work from './Pages/Work';
+import Words from './Pages/Words';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 
-const OuterWrapper = styled.div`
+const RootWrapper = styled.div`
     background-color: var(--primary-200);
     padding: var(--padding-very-large);
 `;
 
-const InnerWrapper = styled.div`
+export const PageWrapper = styled.div`
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -24,18 +27,18 @@ const InnerWrapper = styled.div`
 
 function App() {
     return (
-        <OuterWrapper>
-            <InnerWrapper>
-                <Header />
-                <Home />
-                <Work />
-                <Words />
-                <About />
-                <Contact />
-                <Stay />
-                <Footer />
-            </InnerWrapper>
-        </OuterWrapper>
+        <RootWrapper>
+            <Header />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/work" element={<Work />} />
+                <Route path="/words" element={<Words />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="*" element={<NotFound />} />
+            </Routes>
+            <Footer />
+        </RootWrapper>
     );
 }
 

@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
-import moon from './../../Images/bg-moon-phases.webp';
-import NewsLetter from './NewsLetter';
-import SocialList from './SocialList';
+import moon from './../../../Images/bg-moon-phases.webp';
+import NewsLetter from './../Stay/NewsLetter';
+import SocialList from './../Stay/SocialList';
 
 const StayOuter = styled.section`
     width: 100%;

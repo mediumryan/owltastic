@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import { styled } from 'styled-components';
 
 export const HeaderWrapper = styled.div`
@@ -36,16 +36,28 @@ export const HeaderMenuItem = styled.li`
     }
 `;
 
+export const HeaderLink = styled(Link)``;
+
 export default function Header() {
     return (
         <HeaderWrapper>
             <HeaderTitle>owltastic</HeaderTitle>
             <HeaderMenu>
-                <HeaderMenuItem>HOME</HeaderMenuItem>
-                <HeaderMenuItem>WORK</HeaderMenuItem>
-                <HeaderMenuItem>WORDS</HeaderMenuItem>
-                <HeaderMenuItem>ABOUT</HeaderMenuItem>
-                <HeaderMenuItem>CONTACT</HeaderMenuItem>
+                <HeaderMenuItem>
+                    <HeaderLink to="/">HOME</HeaderLink>
+                </HeaderMenuItem>
+                <HeaderMenuItem>
+                    <HeaderLink to="/work">WORK</HeaderLink>
+                </HeaderMenuItem>
+                <HeaderMenuItem>
+                    <HeaderLink to="/words">WORDS</HeaderLink>
+                </HeaderMenuItem>
+                <HeaderMenuItem>
+                    <HeaderLink to="/about">ABOUT</HeaderLink>
+                </HeaderMenuItem>
+                <HeaderMenuItem>
+                    <HeaderLink to="contact">CONTACT</HeaderLink>
+                </HeaderMenuItem>
             </HeaderMenu>
         </HeaderWrapper>
     );

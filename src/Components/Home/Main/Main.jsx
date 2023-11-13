@@ -1,13 +1,12 @@
-import React from 'react';
 import { keyframes, styled } from 'styled-components';
 // import image files
-import Orbit from './../../Images/bg-orbit.webp';
-import StarBottom from './../../Images/bg-star-bottom.webp';
-import StarLady from './../../Images/bg-star-lady.webp';
-import StarOwl from './../../Images/bg-star-owl.webp';
-import StarTop from './../../Images/bg-star-top.webp';
+import Orbit from './../../../Images/bg-orbit.webp';
+import StarBottom from './../../../Images/bg-star-bottom.webp';
+import StarLady from './../../../Images/bg-star-lady.webp';
+import StarOwl from './../../../Images/bg-star-owl.webp';
+import StarTop from './../../../Images/bg-star-top.webp';
 
-const HomeWrapper = styled.section`
+const MainWrapper = styled.section`
     width: 100%;
     height: 100%;
     background-color: var(--primary-100);
@@ -19,12 +18,12 @@ const HomeWrapper = styled.section`
     overflow: hidden;
 `;
 
-const HomeTitle = styled.h1`
+const MainTitle = styled.h1`
     padding: 0 20%;
     font-size: 64px;
 `;
 
-const HomeIntro = styled.p`
+const MainIntro = styled.p`
     font-family: var(--font-family-normal);
     padding: 0 420px;
     margin-top: 36px;
@@ -131,13 +130,13 @@ const OrbitBottomImg = styled.div`
     animation: ${rotateLeft} 120s linear infinite;
 `;
 
-export default function Home() {
+export default function Main() {
     return (
-        <HomeWrapper>
-            <HomeTitle>
+        <MainWrapper>
+            <MainTitle>
                 Working through the night to bring wise ideas to light.
-            </HomeTitle>
-            <HomeIntro>
+            </MainTitle>
+            <MainIntro>
                 Hello! I’m Meagan Fisher Couldwell, and I’ve been designing
                 usable and delightful digital experiences—as well as writing and
                 speaking about design—for almost 20 years. <br />
@@ -149,13 +148,13 @@ export default function Home() {
                 >
                     PERUSE MY PORTFOLIO →
                 </GoPortfolio>
-            </HomeIntro>
+            </MainIntro>
             <StarTopImg />
             <StarBottomImg />
             <StarLadyImg />
             <StarOwlImg />
             <OrbitTopImg />
             <OrbitBottomImg />
-        </HomeWrapper>
+        </MainWrapper>
     );
 }

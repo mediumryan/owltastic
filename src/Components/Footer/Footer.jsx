@@ -5,7 +5,7 @@ import {
     HeaderMenuItem,
     HeaderTitle,
     HeaderWrapper,
-} from '../Header/Header';
+} from '../../Components/Header/Header';
 
 const FooterWrapper = styled(HeaderWrapper)`
     background-color: var(--primary-100);

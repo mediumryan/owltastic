@@ -7,6 +7,8 @@ import faculty from './Images/WorkImages/home-cropped.jpg';
 import garden from './Images/WorkImages/coaches-high-res.webp';
 import venture from './Images/WorkImages/vilcap-home-preview-desktop-high-res.webp';
 
+// home page
+
 export const workState = atom({
     key: 'work_state',
     default: [
