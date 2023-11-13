@@ -26,6 +26,9 @@ const SocialListWrapper = styled.div`
                 text-decoration: none;
                 color: var(--primary-200);
                 border-bottom: 1px solid var(--primary-100);
+                svg {
+                    margin-right: 8px;
+                }
                 &:hover {
                     color: var(--primary-100);
                     border-color: var(--primary-200);
