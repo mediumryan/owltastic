@@ -1,5 +1,4 @@
 import React from 'react';
-import { PageWrapper } from '../App';
 import { styled } from 'styled-components';
 import wordsBg from './../Images/bg-meteor-shower.webp';
 import WordsGreeting from '../Components/Words/WordsGreeting';
@@ -10,6 +9,7 @@ import WordsBetter2 from '../Components/Words/WordsBetter2';
 import WordsInteresting from '../Components/Words/WordsInteresting';
 import WordsNewGoal from '../Components/Words/WordsNewGoal';
 import WordsConclusion from '../Components/Words/WordsConclusion';
+import WordsIntro from '../Components/Words/WordsIntro';
 
 const WordsPageWrapper = styled.div`
     padding-bottom: 3rem;
@@ -20,10 +20,16 @@ const WordsPageWrapper = styled.div`
 
 const WordsInnerWrapper = styled.div`
     background-color: var(--primary-100);
+    margin: 0 8rem;
+    padding: 3rem 5rem;
 `;
 
-export const sectionWrapper = styled.section`
-    background-color: red;
+export const WordsSectionWrapper = styled.section`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;
 
 export default function Words() {
@@ -31,6 +37,7 @@ export default function Words() {
         <WordsPageWrapper>
             <WordsGreeting />
             <WordsInnerWrapper>
+                <WordsIntro />
                 <WordsWorse />
                 <WordsBetter />
                 <WordsWorse2 />
