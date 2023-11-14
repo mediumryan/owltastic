@@ -14,7 +14,6 @@ const WorkHomeWrapper = styled.section`
             margin-bottom: 1rem;
         }
         p {
-            font-weight: 300;
             font-size: 1rem;
             padding-right: 5rem;
             font-family: var(--font-family-normal);

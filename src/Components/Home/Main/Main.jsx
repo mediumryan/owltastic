@@ -20,14 +20,14 @@ const MainWrapper = styled.section`
 
 const MainTitle = styled.h1`
     padding: 0 20%;
-    font-size: 64px;
+    font-size: 3.5rem;
 `;
 
 const MainIntro = styled.p`
     font-family: var(--font-family-normal);
     padding: 0 420px;
-    margin-top: 36px;
-    font-size: 14px;
+    margin-top: 3rem;
+    font-size: 1rem;
 `;
 
 const GoPortfolio = styled.a`
