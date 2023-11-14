@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
+import { useRecoilState } from 'recoil';
 import { styled } from 'styled-components';
+import { headerMenuState } from '../../atom';
 
 export const HeaderWrapper = styled.div`
     background-color: var(--black-100);
@@ -25,44 +27,56 @@ export const HeaderMenuItem = styled.li`
     margin: 0 var(--margin-medium-large);
     padding-bottom: var(--padding-micro);
     cursor: pointer;
-    &:first-child {
-        border-bottom: 1px solid var(--primary-100);
-        &:hover {
-            border-color: transparent;
-        }
-    }
+    border: none;
+    border-bottom: 1px solid var(--primary-100);
     &:hover {
-        color: var(--primary-200);
+        border: none;
     }
 `;
 
 export const HeaderLink = styled(Link)`
     color: var(--primary-100);
+    text-decoration: none;
     &:hover {
         color: var(--primary-200);
     }
 `;
 
 export default function Header() {
+    const [headerMenu, setHeaderMenu] = useRecoilState(headerMenuState);
+
+    const handleActive = (itemId) => {
+        const newHeader = headerMenu.map((item) => ({
+            ...item,
+            isActive: false,
+        }));
+        newHeader[itemId].isActive = true;
+        setHeaderMenu(newHeader);
+    };
+
     return (
         <HeaderWrapper>
             <HeaderTitle>owltastic</HeaderTitle>
             <HeaderMenu>
-                <HeaderMenuItem>
-                    <HeaderLink to="/">HOME</HeaderLink>
-                </HeaderMenuItem>
-                <HeaderMenuItem>
-                    <HeaderLink to="/work">WORK</HeaderLink>
-                </HeaderMenuItem>
-                <HeaderMenuItem>
-                    <HeaderLink to="/words">WORDS</HeaderLink>
-                </HeaderMenuItem>
-                <HeaderMenuItem>
-                    <HeaderLink to="/about">ABOUT</HeaderLink>
-                </HeaderMenuItem>
-                <HeaderMenuItem>
-                    <HeaderLink to="contact">CONTACT</HeaderLink>
-                </HeaderMenuItem>
+                {headerMenu.map((item) => {
+                    return (
+                        <HeaderMenuItem
+                            key={item.id}
+                            style={{
+                                borderColor: item.isActive
+                                    ? '#faeedd'
+                                    : 'transparent',
+                            }}
+                            onClick={() => {
+                                handleActive(item.id);
+                            }}
+                        >
+                            <HeaderLink to={item.linkTo}>
+                                {item.value}
+                            </HeaderLink>
+                        </HeaderMenuItem>
+                    );
+                })}
             </HeaderMenu>
         </HeaderWrapper>
     );

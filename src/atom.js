@@ -7,6 +7,44 @@ import faculty from './Images/WorkImages/home-cropped.jpg';
 import garden from './Images/WorkImages/coaches-high-res.webp';
 import venture from './Images/WorkImages/vilcap-home-preview-desktop-high-res.webp';
 
+// header
+
+export const headerMenuState = atom({
+    key: 'header_menu_state',
+    default: [
+        {
+            id: 0,
+            value: 'HOME',
+            linkTo: '/',
+            isActive: true,
+        },
+        {
+            id: 1,
+            value: 'WORK',
+            linkTo: '/work',
+            isActive: false,
+        },
+        {
+            id: 2,
+            value: 'WORDS',
+            linkTo: '/words',
+            isActive: false,
+        },
+        {
+            id: 3,
+            value: 'ABOUT',
+            linkTo: '/about',
+            isActive: false,
+        },
+        {
+            id: 4,
+            value: 'CONTACT',
+            linkTo: '/contact',
+            isActive: false,
+        },
+    ],
+});
+
 // home page
 
 export const workState = atom({
