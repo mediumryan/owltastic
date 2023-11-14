@@ -11,6 +11,8 @@ import Work from './Pages/Work';
 import Words from './Pages/Words';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import ContactMe from './Components/ContactMe/ContactMe';
+import Stay from './Components/Stay/Stay';
 
 const RootWrapper = styled.div`
     background-color: var(--primary-200);
@@ -37,6 +39,8 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
+            <ContactMe />
+            <Stay />
             <Footer />
         </RootWrapper>
     );

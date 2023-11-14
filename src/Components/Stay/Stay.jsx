@@ -1,5 +1,5 @@
 import { styled } from 'styled-components';
-import moon from './../../../Images/bg-moon-phases.webp';
+import moon from './../../Images/bg-moon-phases.webp';
 import NewsLetter from './../Stay/NewsLetter';
 import SocialList from './../Stay/SocialList';
 
