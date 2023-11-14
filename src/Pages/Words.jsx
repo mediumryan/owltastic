@@ -11,24 +11,34 @@ import WordsInteresting from '../Components/Words/WordsInteresting';
 import WordsNewGoal from '../Components/Words/WordsNewGoal';
 import WordsConclusion from '../Components/Words/WordsConclusion';
 
-const WordsPageWrapper = styled(PageWrapper)`
+const WordsPageWrapper = styled.div`
     padding-bottom: 3rem;
     background: var(--brown-100) url(${wordsBg}) top no-repeat;
     background-size: 100%;
     border-top: 0.5px solid var(--primary-100);
 `;
 
+const WordsInnerWrapper = styled.div`
+    background-color: var(--primary-100);
+`;
+
+export const sectionWrapper = styled.section`
+    background-color: red;
+`;
+
 export default function Words() {
     return (
         <WordsPageWrapper>
             <WordsGreeting />
-            <WordsWorse />
-            <WordsBetter />
-            <WordsWorse2 />
-            <WordsBetter2 />
-            <WordsInteresting />
-            <WordsNewGoal />
-            <WordsConclusion />
+            <WordsInnerWrapper>
+                <WordsWorse />
+                <WordsBetter />
+                <WordsWorse2 />
+                <WordsBetter2 />
+                <WordsInteresting />
+                <WordsNewGoal />
+                <WordsConclusion />
+            </WordsInnerWrapper>
         </WordsPageWrapper>
     );
 }
