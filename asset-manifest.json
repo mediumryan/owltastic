@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/owltastic/static/css/main.7a1db45a.css",
-    "main.js": "/owltastic/static/js/main.a77f465b.js",
+    "main.js": "/owltastic/static/js/main.b8d822ca.js",
     "static/media/home-cropped.jpg": "/owltastic/static/media/home-cropped.5404ac5a5e8db29353b3.jpg",
     "static/media/bg-star-chart-alt.webp": "/owltastic/static/media/bg-star-chart-alt.01ab4ea97cae577ae844.webp",
     "static/media/bg-meteor-shower.webp": "/owltastic/static/media/bg-meteor-shower.9517d69841fe073af225.webp",
@@ -11,6 +11,7 @@
     "static/media/bg-globe.webp": "/owltastic/static/media/bg-globe.0564805adc4d0585eda3.webp",
     "static/media/vilcap-home-preview-desktop-high-res.webp": "/owltastic/static/media/vilcap-home-preview-desktop-high-res.01884198ebe2e94d23d2.webp",
     "static/media/bg-orbit.webp": "/owltastic/static/media/bg-orbit.775715d9bf544c44145c.webp",
+    "static/media/bg-telescope.webp": "/owltastic/static/media/bg-telescope.62b02f90331619892930.webp",
     "static/media/bg-owl-moon-flipped.webp": "/owltastic/static/media/bg-owl-moon-flipped.4374341836c22da8ef63.webp",
     "static/media/bg-moon-phases.webp": "/owltastic/static/media/bg-moon-phases.07b127254e004c72eec6.webp",
     "static/media/coaches-high-res.webp": "/owltastic/static/media/coaches-high-res.b8b5a32ba637c79a37c6.webp",
@@ -20,10 +21,10 @@
     "static/media/bg-star-bottom.webp": "/owltastic/static/media/bg-star-bottom.e34b6d8d324c3de18613.webp",
     "index.html": "/owltastic/index.html",
     "main.7a1db45a.css.map": "/owltastic/static/css/main.7a1db45a.css.map",
-    "main.a77f465b.js.map": "/owltastic/static/js/main.a77f465b.js.map"
+    "main.b8d822ca.js.map": "/owltastic/static/js/main.b8d822ca.js.map"
   },
   "entrypoints": [
     "static/css/main.7a1db45a.css",
-    "static/js/main.a77f465b.js"
+    "static/js/main.b8d822ca.js"
   ]
 }
