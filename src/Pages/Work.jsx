@@ -1,5 +1,12 @@
-import React from 'react';
+import { PageWrapper } from '../App';
+import WorkHome from '../Components/Work/WorkHome';
+import WorkList from '../Components/Work/WorkList';
 
 export default function Work() {
-    return <div>Work</div>;
+    return (
+        <PageWrapper>
+            <WorkHome />
+            <WorkList />
+        </PageWrapper>
+    );
 }
