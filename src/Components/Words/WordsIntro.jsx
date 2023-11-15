@@ -7,6 +7,7 @@ export const WordsText = styled.div`
         padding: 1.25rem 15%;
         font-size: 1rem;
         letter-spacing: -0.2px;
+        line-height: 2;
     }
     &:first-child {
         margin: 2rem 0;
