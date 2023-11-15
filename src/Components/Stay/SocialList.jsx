@@ -44,37 +44,46 @@ export default function SocialList() {
             <h4>FOLLOW ME ELSEWHERE</h4>
             <ul>
                 <li>
-                    <a href="#">
+                    <a target="blank" href="https://twitter.com/owltastic">
                         <FaTwitter />
                         Twitter
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a target="blank" href="https://dribbble.com/owltastic">
                         <FaDribbble />
                         Dribbble
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a target="blank" href="https://medium.com/@owltastic">
                         <FaMedium />
                         Medium
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a
+                        target="blank"
+                        href="https://www.instagram.com/owltastic/"
+                    >
                         <FaInstagram />
                         Instagram
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a
+                        target="blank"
+                        href="https://www.facebook.com/owltasticdesign"
+                    >
                         <FaFacebook />
                         Facebook
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a
+                        target="blank"
+                        href="https://www.linkedin.com/in/owltastic/"
+                    >
                         <FaLinkedin />
                         LinkedIn
                     </a>
