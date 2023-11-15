@@ -1,7 +1,7 @@
 import { styled } from 'styled-components';
 import { WordsSectionWrapper } from '../../Pages/Words';
 
-const IntroText = styled.div`
+export const WordsText = styled.div`
     font-family: var(--font-family-normal);
     p {
         padding: 1.25rem 15%;
@@ -21,7 +21,7 @@ const IntroText = styled.div`
     }
 `;
 
-const IntroImages = styled.div`
+export const WordsImages = styled.div`
     ul {
         display: flex;
         justify-content: space-evenly;
@@ -45,6 +45,7 @@ const IntroImages = styled.div`
                 }
             }
             p {
+                min-height: 26px;
                 font-size: 0.55rem;
                 font-family: var(--font-family-normal);
                 margin-top: 1rem;
@@ -80,15 +81,15 @@ export default function WordsIntro() {
 
     return (
         <WordsSectionWrapper>
-            <IntroText>
+            <WordsText>
                 <p>
                     If you’ve followed my work at all, you may have noticed that
                     in the last 5 years or so, I've gone pretty quiet. I’d like
                     to say hi, catch you up on where I’ve been, and share a bit
                     about what I hope is coming next.
                 </p>
-            </IntroText>
-            <IntroImages>
+            </WordsText>
+            <WordsImages>
                 <ul>
                     {infoImageArr.map((item) => {
                         return (
@@ -104,16 +105,16 @@ export default function WordsIntro() {
                         );
                     })}
                 </ul>
-            </IntroImages>
-            <IntroText>
+            </WordsImages>
+            <WordsText>
                 <p>
                     When I began my career in web design nearly 20 years ago, I
                     was full of ambition. I saw myself working with the
                     industry’s best, speaking at prestigious events, and one day
                     moving to New York City.
                 </p>
-            </IntroText>
-            <IntroText>
+            </WordsText>
+            <WordsText>
                 <p>
                     Incredibly, each of these dreams came true. By my
                     mid-twenties, I’d moved to New York, I was earning more than
@@ -123,8 +124,8 @@ export default function WordsIntro() {
                     (Don't worry, this post isn't a laundry list of my career
                     achievements. Just wait for it).
                 </p>
-            </IntroText>
-            <IntroText>
+            </WordsText>
+            <WordsText>
                 <p>
                     From the outside I may have seemed to be the epitome of
                     success, at least to some, but privately I relentlessly
@@ -137,7 +138,7 @@ export default function WordsIntro() {
                     met my favorite person ever—the angst I felt around my
                     career left me full of doubt about where my life was headed.
                 </p>
-            </IntroText>
+            </WordsText>
         </WordsSectionWrapper>
     );
 }
