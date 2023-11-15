@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/owltastic/static/css/main.7a1db45a.css",
-    "main.js": "/owltastic/static/js/main.b8d822ca.js",
+    "main.js": "/owltastic/static/js/main.8c807a64.js",
     "static/media/home-cropped.jpg": "/owltastic/static/media/home-cropped.5404ac5a5e8db29353b3.jpg",
     "static/media/bg-star-chart-alt.webp": "/owltastic/static/media/bg-star-chart-alt.01ab4ea97cae577ae844.webp",
     "static/media/bg-meteor-shower.webp": "/owltastic/static/media/bg-meteor-shower.9517d69841fe073af225.webp",
@@ -21,10 +21,10 @@
     "static/media/bg-star-bottom.webp": "/owltastic/static/media/bg-star-bottom.e34b6d8d324c3de18613.webp",
     "index.html": "/owltastic/index.html",
     "main.7a1db45a.css.map": "/owltastic/static/css/main.7a1db45a.css.map",
-    "main.b8d822ca.js.map": "/owltastic/static/js/main.b8d822ca.js.map"
+    "main.8c807a64.js.map": "/owltastic/static/js/main.8c807a64.js.map"
   },
   "entrypoints": [
     "static/css/main.7a1db45a.css",
-    "static/js/main.b8d822ca.js"
+    "static/js/main.8c807a64.js"
   ]
 }
