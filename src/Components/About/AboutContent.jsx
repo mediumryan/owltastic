@@ -8,7 +8,7 @@ import {
 } from 'react-icons/fa';
 import { FaMedium } from 'react-icons/fa6';
 
-const ContentWrapper = styled.section`
+export const ContentWrapper = styled.section`
     width: 100%;
     background: var(--primary-100);
     display: flex;
@@ -16,7 +16,7 @@ const ContentWrapper = styled.section`
     padding: 0 7.5% 0 15%;
 `;
 
-const ContentTextBox = styled.div`
+export const ContentTextBox = styled.div`
     width: 72%;
     padding: 5rem 0;
     img {
@@ -29,7 +29,7 @@ const ContentTextBox = styled.div`
     }
 `;
 
-const ContentText = styled.div`
+export const ContentText = styled.div`
     margin-bottom: 2rem;
     p {
         font-family: var(--font-family-normal);
@@ -57,7 +57,7 @@ const ContentText = styled.div`
     }
 `;
 
-const ContentAside = styled.div`
+export const ContentAside = styled.div`
     width: 16%;
     padding-top: 5rem;
     margin-left: 5rem;
